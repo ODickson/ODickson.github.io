@@ -291,6 +291,7 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+			font-size: 0.85em;
 		}
 
 		.row > .off-12 {
@@ -1024,6 +1025,7 @@ input, select, textarea {
 
 				.row > .col-12-medium {
 					width: 100%;
+					font-size: 0.75em;
 				}
 
 				.row > .off-12-medium {
@@ -1269,6 +1271,7 @@ input, select, textarea {
 
 				.row > .col-12-small {
 					width: 100%;
+					font-size: 01em;
 				}
 
 				.row > .off-12-small {
@@ -1478,7 +1481,7 @@ input, select, textarea {
 		background-color: #ed391b;
 		color: #fff;
 		text-decoration: none;
-		font-size: 1.75em;
+		font-size: 1em;
 		height: 2em;
 		line-height: 2.125em;
 		font-weight: 300;
@@ -1618,6 +1621,12 @@ input, select, textarea {
 			margin: 0 0 25px 0;
 		}
 
+		#content h1 {
+			font-size: 2.8em;
+			color: #373f42;
+			margin: 0 0 0.25em 0;
+		}
+
 		#content h2 {
 			font-size: 1.8em;
 			color: #373f42;
@@ -1737,7 +1746,7 @@ input, select, textarea {
 			}
 
 			.button-large {
-				font-size: 1.5em;
+				font-size: 1em;
 			}
 
 		/* Banner */
@@ -1757,6 +1766,9 @@ input, select, textarea {
 			}
 
 		/* Content */
+			#content h1 {
+				font-size: 2em;
+			}
 
 			#content h2 {
 				font-size: 1.4em;
@@ -1998,6 +2010,10 @@ input, select, textarea {
 
 			#content section {
 				padding: 30px 20px;
+			}
+
+			#content h1 {
+				font-size: 1.25em;
 			}
 
 			#content h2 {
