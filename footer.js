@@ -6,7 +6,7 @@ const htmlstring = `
                 <!-- Blurb -->
                     <section>
                         <p align="center" style="font-size: 1.5em" >This site acts as a portfolio and repository for my code/projects. Feel free to reach 
-                        out to me at <a href=mailto: "o.b.p.dickson@live.com" >o.b.p.dickson@live.com</font></a> if you have any questions or comments.
+                        out to me at <a href="mailto: o.b.p.dickson@live.com" >o.b.p.dickson@live.com</font></a> if you have any questions or comments.
                         Check out my LinkedIn here: <a href="https://uk.linkedin.com/in/oliver-dickson-a0a941218?trk=profile-badge">Oliver Dickson</a>
                         </div>
                         </p>
