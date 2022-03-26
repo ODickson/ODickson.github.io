@@ -130,8 +130,8 @@ input, select, textarea {
 	position: absolute;
 	width: 6px;
 	background-color: rgb(0, 0, 0);
-	top: 15%;
-	bottom: -14%;
+	top: 10%;
+	bottom: 19%;
 	left: 50%;
 	margin-left: -3px;
 	color: black;
@@ -173,7 +173,7 @@ input, select, textarea {
   /* Add arrows to the left container (pointing right) */
   .left::before {
 	content: " ";
-	height: 15%;
+	height: 0;
 	position: absolute;
 	top: 40%;
 	width: 0;
@@ -2016,7 +2016,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						content: '';
-						position: absolute;
+						position: fixed;
 						width: 20px;
 						height: 30px;
 						background: url("images/mobileUI-site-nav-opener-bg.svg");
