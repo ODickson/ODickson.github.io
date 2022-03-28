@@ -201,7 +201,7 @@ input, select, textarea {
   /* Fix the circle for containers on the right side */
   .right::after {
 	left: -12px;
-	top: 38%;
+	top: 39%;
   }
   .left::after {
 	right: -12px;
@@ -1578,6 +1578,23 @@ input, select, textarea {
 			padding-bottom: 0 !important;
 			border-bottom: 0 !important;
 		}
+	.check-list_contact li {
+		padding: 0.7em 0 0.7em 45px;
+		font-size: 1.2em;
+		background: url("email.png") 0px 1.05em no-repeat;
+	}
+
+		.check-list_contact li:first-child {
+			padding-top: 0 !important;
+			border-top: 0 !important;
+			background-position: 0 0.3em;
+			
+		}
+
+		.check-list_contact li:last-child {
+			padding-bottom: 0 !important;
+			border-bottom: 0 !important;
+		}
 
 	.feature-image {
 		display: block;
@@ -1789,6 +1806,9 @@ input, select, textarea {
 		#content .check-list li {
 			border-bottom: solid 1px #e2e6e8;
 		}
+		#content .check-list_contact li {
+			border-bottom: solid 1px #e2e6e8;
+		}
 
 /* Footer */
 
@@ -1823,7 +1843,10 @@ input, select, textarea {
 			border-top: solid 1px #e0e4e6;
 			border-bottom: solid 1px #b5bec3;
 		}
-
+		#footer .check-list_contact li {
+			border-top: solid 1px #e0e4e6;
+			border-bottom: solid 1px #b5bec3;
+		}
 /* Copyright */
 
 	#copyright {
@@ -1846,6 +1869,10 @@ input, select, textarea {
 		/* Multi-use */
 
 			.check-list li {
+				font-size: 1em;
+				line-height: 2em;
+			}
+			.check-list_contact li {
 				font-size: 1em;
 				line-height: 2em;
 			}
@@ -2120,6 +2147,9 @@ input, select, textarea {
 			}
 
 			.check-list li {
+				font-size: 1em;
+			}
+			.check-list_contact li {
 				font-size: 1em;
 			}
 
